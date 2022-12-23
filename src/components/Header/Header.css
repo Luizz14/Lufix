@@ -1,0 +1,40 @@
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background: linear-gradient(rgba(17, 17, 17, 0.39) 5%, transparent);
+    border-color: rgba(243, 232, 232, 0.08);
+    transition: all 0.2s;
+}
+
+header.black {
+    border-color: rgba(243, 232, 232, 0.08);
+    border-width: 0px 0px thin;
+    backdrop-filter: blur(20px);
+    background-color: rgba(14, 3, 3, 0.7);
+    border-style: solid;
+}
+
+.header-logo {
+    height: 25px;
+}
+
+.header-logo img {
+    height: 100%;
+}
+
+.header-user {
+    height: 35px;
+}
+
+.header-user img {
+    height: 100%;
+    border-radius: 3px;
+}

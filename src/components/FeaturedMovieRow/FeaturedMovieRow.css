@@ -1,0 +1,33 @@
+.featured-MovieRow {
+    margin-bottom: 30px;
+}
+
+.featured-MovieRow h2 {
+    margin: 0px 0px 0px 30px;
+}
+
+.featured-MovieRow-list-area {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.featured-MovieRow-list {
+    width: 99999px;
+}
+
+.featured-MovieRow-item {
+    display: inline-block;
+    width: 450px;
+    cursor: pointer;
+}
+
+.featured-MovieRow-item img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: transform 0.5s;
+    border-radius: 5px;
+}
+
+.featured-MovieRow-item img:hover {
+    transform: scale(1);
+}

@@ -1,0 +1,105 @@
+.featured {
+    height: 100vh;
+}
+
+.featured-vertical {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 5%, transparent);
+}
+
+.featured-horizontal {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, rgba(17, 17, 17, 0.397) 5%, transparent);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.featured-name {
+    margin-top: 0rem;
+    margin-left: 5rem;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.featured-info {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.featured-points,
+.featured-relesed,
+.featured-seasons {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.featured-points {
+    color: #46d369;
+}
+
+.featured-overview {
+    margin-left: 5rem;
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(253, 253, 253);
+    max-width: 40%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.253);
+}
+
+.featured-genres {
+    margin-left: 5rem;
+    opacity: 0.8;
+}
+
+.featured-buttons {
+    margin-top: 15px;
+    margin-left: 5rem;
+}
+
+.featured-watch-button,
+.featured-info-button {
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.7rem;
+    padding-left: 2rem;
+    padding-right: 2.4rem;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.featured-watch-button:hover,
+.featured-info-button:hover {
+    opacity: 0.8;
+}
+
+.featured-watch-button {
+    color: black;
+    background-color: white;
+}
+
+.featured-info-button {
+    background-color: rgba(109, 109, 110, 0.7);
+    color: white;
+}
+
+.featured-watch {
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.featured-play {
+    display: inline-block;
+}
